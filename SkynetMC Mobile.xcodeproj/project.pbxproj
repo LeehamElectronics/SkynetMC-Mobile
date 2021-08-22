@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8AEDD8026D1D3AF00593608 /* SkynetMC_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AEDD7F26D1D3AF00593608 /* SkynetMC_MobileApp.swift */; };
+		C8AEDD8226D1D3AF00593608 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AEDD8126D1D3AF00593608 /* ContentView.swift */; };
+		C8AEDD8426D1D3B300593608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AEDD8326D1D3B300593608 /* Assets.xcassets */; };
+		C8AEDD8726D1D3B300593608 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AEDD8626D1D3B300593608 /* Preview Assets.xcassets */; };
+		C8AEDD9226D1D3B400593608 /* SkynetMC_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AEDD9126D1D3B400593608 /* SkynetMC_MobileTests.swift */; };
+		C8AEDD9D26D1D3B400593608 /* SkynetMC_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AEDD9C26D1D3B400593608 /* SkynetMC_MobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8AEDD8E26D1D3B400593608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8AEDD7426D1D3AF00593608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8AEDD7B26D1D3AF00593608;
+			remoteInfo = "SkynetMC Mobile";
+		};
+		C8AEDD9926D1D3B400593608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8AEDD7426D1D3AF00593608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8AEDD7B26D1D3AF00593608;
+			remoteInfo = "SkynetMC Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C8AEDD7C26D1D3AF00593608 /* SkynetMC Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkynetMC Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AEDD7F26D1D3AF00593608 /* SkynetMC_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkynetMC_MobileApp.swift; sourceTree = "<group>"; };
+		C8AEDD8126D1D3AF00593608 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8AEDD8326D1D3B300593608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8AEDD8626D1D3B300593608 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8AEDD8826D1D3B300593608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AEDD8D26D1D3B400593608 /* SkynetMC MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkynetMC MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AEDD9126D1D3B400593608 /* SkynetMC_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkynetMC_MobileTests.swift; sourceTree = "<group>"; };
+		C8AEDD9326D1D3B400593608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AEDD9826D1D3B400593608 /* SkynetMC MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SkynetMC MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AEDD9C26D1D3B400593608 /* SkynetMC_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkynetMC_MobileUITests.swift; sourceTree = "<group>"; };
+		C8AEDD9E26D1D3B400593608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8AEDD7926D1D3AF00593608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AEDD8A26D1D3B400593608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AEDD9526D1D3B400593608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8AEDD7326D1D3AF00593608 = {
+			isa = PBXGroup;
+			children = (
+				C8AEDD7E26D1D3AF00593608 /* SkynetMC Mobile */,
+				C8AEDD9026D1D3B400593608 /* SkynetMC MobileTests */,
+				C8AEDD9B26D1D3B400593608 /* SkynetMC MobileUITests */,
+				C8AEDD7D26D1D3AF00593608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8AEDD7D26D1D3AF00593608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8AEDD7C26D1D3AF00593608 /* SkynetMC Mobile.app */,
+				C8AEDD8D26D1D3B400593608 /* SkynetMC MobileTests.xctest */,
+				C8AEDD9826D1D3B400593608 /* SkynetMC MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8AEDD7E26D1D3AF00593608 /* SkynetMC Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				C8AEDD7F26D1D3AF00593608 /* SkynetMC_MobileApp.swift */,
+				C8AEDD8126D1D3AF00593608 /* ContentView.swift */,
+				C8AEDD8326D1D3B300593608 /* Assets.xcassets */,
+				C8AEDD8826D1D3B300593608 /* Info.plist */,
+				C8AEDD8526D1D3B300593608 /* Preview Content */,
+			);
+			path = "SkynetMC Mobile";
+			sourceTree = "<group>";
+		};
+		C8AEDD8526D1D3B300593608 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8AEDD8626D1D3B300593608 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8AEDD9026D1D3B400593608 /* SkynetMC MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8AEDD9126D1D3B400593608 /* SkynetMC_MobileTests.swift */,
+				C8AEDD9326D1D3B400593608 /* Info.plist */,
+			);
+			path = "SkynetMC MobileTests";
+			sourceTree = "<group>";
+		};
+		C8AEDD9B26D1D3B400593608 /* SkynetMC MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8AEDD9C26D1D3B400593608 /* SkynetMC_MobileUITests.swift */,
+				C8AEDD9E26D1D3B400593608 /* Info.plist */,
+			);
+			path = "SkynetMC MobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8AEDD7B26D1D3AF00593608 /* SkynetMC Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AEDDA126D1D3B400593608 /* Build configuration list for PBXNativeTarget "SkynetMC Mobile" */;
+			buildPhases = (
+				C8AEDD7826D1D3AF00593608 /* Sources */,
+				C8AEDD7926D1D3AF00593608 /* Frameworks */,
+				C8AEDD7A26D1D3AF00593608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkynetMC Mobile";
+			productName = "SkynetMC Mobile";
+			productReference = C8AEDD7C26D1D3AF00593608 /* SkynetMC Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8AEDD8C26D1D3B400593608 /* SkynetMC MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AEDDA426D1D3B400593608 /* Build configuration list for PBXNativeTarget "SkynetMC MobileTests" */;
+			buildPhases = (
+				C8AEDD8926D1D3B400593608 /* Sources */,
+				C8AEDD8A26D1D3B400593608 /* Frameworks */,
+				C8AEDD8B26D1D3B400593608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8AEDD8F26D1D3B400593608 /* PBXTargetDependency */,
+			);
+			name = "SkynetMC MobileTests";
+			productName = "SkynetMC MobileTests";
+			productReference = C8AEDD8D26D1D3B400593608 /* SkynetMC MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8AEDD9726D1D3B400593608 /* SkynetMC MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AEDDA726D1D3B400593608 /* Build configuration list for PBXNativeTarget "SkynetMC MobileUITests" */;
+			buildPhases = (
+				C8AEDD9426D1D3B400593608 /* Sources */,
+				C8AEDD9526D1D3B400593608 /* Frameworks */,
+				C8AEDD9626D1D3B400593608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8AEDD9A26D1D3B400593608 /* PBXTargetDependency */,
+			);
+			name = "SkynetMC MobileUITests";
+			productName = "SkynetMC MobileUITests";
+			productReference = C8AEDD9826D1D3B400593608 /* SkynetMC MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8AEDD7426D1D3AF00593608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C8AEDD7B26D1D3AF00593608 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					C8AEDD8C26D1D3B400593608 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C8AEDD7B26D1D3AF00593608;
+					};
+					C8AEDD9726D1D3B400593608 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = C8AEDD7B26D1D3AF00593608;
+					};
+				};
+			};
+			buildConfigurationList = C8AEDD7726D1D3AF00593608 /* Build configuration list for PBXProject "SkynetMC Mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8AEDD7326D1D3AF00593608;
+			productRefGroup = C8AEDD7D26D1D3AF00593608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8AEDD7B26D1D3AF00593608 /* SkynetMC Mobile */,
+				C8AEDD8C26D1D3B400593608 /* SkynetMC MobileTests */,
+				C8AEDD9726D1D3B400593608 /* SkynetMC MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8AEDD7A26D1D3AF00593608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AEDD8726D1D3B300593608 /* Preview Assets.xcassets in Resources */,
+				C8AEDD8426D1D3B300593608 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AEDD8B26D1D3B400593608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AEDD9626D1D3B400593608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8AEDD7826D1D3AF00593608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AEDD8226D1D3AF00593608 /* ContentView.swift in Sources */,
+				C8AEDD8026D1D3AF00593608 /* SkynetMC_MobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AEDD8926D1D3B400593608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AEDD9226D1D3B400593608 /* SkynetMC_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8AEDD9426D1D3B400593608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AEDD9D26D1D3B400593608 /* SkynetMC_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8AEDD8F26D1D3B400593608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8AEDD7B26D1D3AF00593608 /* SkynetMC Mobile */;
+			targetProxy = C8AEDD8E26D1D3B400593608 /* PBXContainerItemProxy */;
+		};
+		C8AEDD9A26D1D3B400593608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8AEDD7B26D1D3AF00593608 /* SkynetMC Mobile */;
+			targetProxy = C8AEDD9926D1D3B400593608 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C8AEDD9F26D1D3B400593608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8AEDDA026D1D3B400593608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8AEDDA226D1D3B400593608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SkynetMC Mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 4TNVC5Z9EC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SkynetMC Mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.skynetmc.SkynetMC-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8AEDDA326D1D3B400593608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SkynetMC Mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 4TNVC5Z9EC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SkynetMC Mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.skynetmc.SkynetMC-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C8AEDDA526D1D3B400593608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNVC5Z9EC;
+				INFOPLIST_FILE = "SkynetMC MobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.skynetmc.SkynetMC-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkynetMC Mobile.app/SkynetMC Mobile";
+			};
+			name = Debug;
+		};
+		C8AEDDA626D1D3B400593608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNVC5Z9EC;
+				INFOPLIST_FILE = "SkynetMC MobileTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.skynetmc.SkynetMC-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkynetMC Mobile.app/SkynetMC Mobile";
+			};
+			name = Release;
+		};
+		C8AEDDA826D1D3B400593608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNVC5Z9EC;
+				INFOPLIST_FILE = "SkynetMC MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.skynetmc.SkynetMC-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SkynetMC Mobile";
+			};
+			name = Debug;
+		};
+		C8AEDDA926D1D3B400593608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TNVC5Z9EC;
+				INFOPLIST_FILE = "SkynetMC MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.skynetmc.SkynetMC-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SkynetMC Mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8AEDD7726D1D3AF00593608 /* Build configuration list for PBXProject "SkynetMC Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AEDD9F26D1D3B400593608 /* Debug */,
+				C8AEDDA026D1D3B400593608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AEDDA126D1D3B400593608 /* Build configuration list for PBXNativeTarget "SkynetMC Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AEDDA226D1D3B400593608 /* Debug */,
+				C8AEDDA326D1D3B400593608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AEDDA426D1D3B400593608 /* Build configuration list for PBXNativeTarget "SkynetMC MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AEDDA526D1D3B400593608 /* Debug */,
+				C8AEDDA626D1D3B400593608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AEDDA726D1D3B400593608 /* Build configuration list for PBXNativeTarget "SkynetMC MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AEDDA826D1D3B400593608 /* Debug */,
+				C8AEDDA926D1D3B400593608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8AEDD7426D1D3AF00593608 /* Project object */;
+}
